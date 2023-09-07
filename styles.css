@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#f5f5f5;
+}
+header{
+	background-color:#011e29;
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+main{
+
+	display:flex;
+	gap:10px;
+	font-stretch: condensed;
+	
+}
+
+.left{
+	background-color:white;
+	width:200px;
+	text-align:center;
+}
+
+.left>table,tr,td{
+		padding:5px;
+		text-align:center;
+}
+
+.latest-news-section{
+	width:40%;
+	background-color:white;
+	padding:10px;
+	text-align:center;
+}
+
+.pictorial-news-section{
+	width:40%;
+	background-color:white;
+	padding:10px;
+	text-align:center;
+}
